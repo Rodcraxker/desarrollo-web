@@ -1,19 +1,25 @@
 {
   "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+    { 
+      "id": 1, 
+      "title": "Introducción a Custom Hooks", 
+      "content": "Los Custom Hooks nos permiten abstraer la lógica del componente.", 
+      "author": "RodMunoz",
+      "date": "2025-12-08"
+    },
+    { 
+      "id": 2, 
+      "title": "Configuración de Vite", 
+      "content": "Asegúrate de que vite.config.js exporte un objeto.", 
+      "author": "RodMunoz",
+      "date": "2025-12-07"
+    },
+    { 
+      "id": 3, 
+      "title": "JSON Server en Acción", 
+      "content": "Este es un post de prueba para la paginación.", 
+      "author": "TestUser",
+      "date": "2025-12-06"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
