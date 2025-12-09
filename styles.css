@@ -1,0 +1,86 @@
+:root {
+    /* Variables de Color */
+    --color-principal: #007bff; /* Azul vibrante para enlaces y énfasis */
+    --color-fondo: #f4f7f6; /* Fondo claro */
+    --color-texto: #333; /* Texto principal oscuro */
+    --color-gris-claro: #ccc; /* Bordes y separadores */
+    --color-sombra: rgba(0, 0, 0, 0.1); /* Sombra ligera */
+
+    /* Variables de Tipografía */
+    --fuente-titulo: 'Georgia', serif;
+    --fuente-cuerpo: 'Arial', sans-serif;
+    --ancho-maximo: 800px;
+}
+
+/* 1. Reset Básico y Estilos Globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-cuerpo);
+    line-height: 1.6;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    padding: 20px;
+}
+
+/* 2. Diseño del Contenedor Principal (main) */
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px; /* Ancho máximo para el layout de escritorio */
+    margin: 0 auto;
+}
+
+/* 3. Estilos del Artículo (Post) */
+.post {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px var(--color-sombra);
+    margin-bottom: 20px;
+}
+
+/* Encabezado del Post (Título y Metadatos) */
+.post header h1 {
+    font-family: var(--fuente-titulo);
+    color: var(--color-principal);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.9em;
+    border-bottom: 1px solid var(--color-gris-claro);
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.post-meta a {
+    color: #666;
+    text-decoration: none;
+    font-weight: bold;
+}
+.post-meta a:hover {
+    color: var(--color-principal);
+}
+
+
+/* 4. Estilos del Contenido */
+.post-content h2 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.8em;
+    color: var(--color-texto);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-left: 5px solid var(--color-principal);
+    padding-left: 10px;
+}
+
+.post-content p {
+    margin-bottom: 20px;
+}

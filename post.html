@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de tu Post Aquí</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+
+    <header>
+        <h1>Nombre de tu Blog/Sitio</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/acerca">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post">
+
+            <header>
+                <hgroup>
+                    <h1 class="post-title">El Título Atractivo del Post</h1>
+                    <h2 class="post-subtitle">Un subtítulo para captar la atención.</h2>
+                </hgroup>
+                
+                <p class="post-meta">
+                    Publicado por 
+                    <address><a href="/autor/nombre-autor" rel="author">Nombre del Autor</a></address> 
+                    el 
+                    <time datetime="2025-12-09">09 de Diciembre de 2025</time>.
+                    Categoría: <a href="/categoria/tecnologia">Tecnología</a>
+                </p>
+            </header>
+
+            <section class="post-summary">
+                <p>Esta es la introducción que resume brevemente de qué trata el artículo...</p>
+            </section>
+            
+            <div class="post-content">
+                
+                <p>El primer párrafo del contenido. Aquí comienza la discusión principal.</p>
+
+                <section>
+                    <h2>Primer Subtítulo (H2)</h2>
+                    <p>Contenido detallado para la primera sección. Puedes incluir listas y enlaces.</p>
+                    <ul>
+                        <li>Punto importante 1</li>
+                        <li>Punto importante 2</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Segundo Subtítulo (H2)</h2>
+                    <p>Contenido detallado para la segunda sección. Puedes usar la etiqueta <code>&lt;figure&gt;</code> para imágenes o código.</p>
+                    
+                    <figure>
+                        <img src="ruta/a/tu/imagen.jpg" alt="Descripción de la imagen" loading="lazy">
+                        <figcaption>Pie de foto que describe la imagen.</figcaption>
+                    </figure>
+                </section>
+                
+                <p>Párrafo final del post. ¡Gracias por leer!</p>
+            </div>
+            
+            <footer>
+                <p>Etiquetas: <a href="#">#HTML</a>, <a href="#">#CSS</a>, <a href="#">#WebDev</a></p>
+            </footer>
+
+        </article>
+
+        <aside class="related-content">
+            <h3>Posts Relacionados</h3>
+            <ul>
+                <li><a href="/otro-post-1">Otro Post Interesante</a></li>
+                <li><a href="/otro-post-2">Más sobre el tema</a></li>
+            </ul>
+        </aside>
+
+    </main>
